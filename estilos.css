@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+body,html{
+
+    background: #f7f7f7;
+    font-family: Tahoma,sans-serif;
+    margin:0.2em
+}
+
+h2,h1{
+    font-family:  'Maitree', 'Segoe UI',sans-serif, Tahoma, Geneva, Verdana;    
+    color: rgb(108, 69, 69);
+    margin: 0.5em;
+    font-size: 1.6em;
+}
+h1{
+    font-size: 2.3em;
+}
+strong{
+    font-family: Arial;
+}
+p{
+    font-family:  'Lato',Arial, Helvetica, sans-serif;
+}
+.link-topo{
+    color: white;
+    text-decoration: none;
+
+}
+.link-topo:hover{
+    color: red;
+}
+img{
+    border-radius: 0.8em;
+
+}
+.centralizou{
+    text-align: center;
+
+}
+h5{
+    margin: 0.7em;
+}
+td{
+    vertical-align: top;
+}
+tfoot td{
+    background: #dcb0a1;
+    padding: 0.7em 7em 0.7em 0em;
+}
+form{
+    margin: 0 auto;
+    padding: 1em;
+}
+form *{
+    margin: 0.1em;
+}
+li{
+    list-style-type: none;
+    float:left;
+}
+
+section  {
+    float: left;
+    padding: 5px;
+    width: 40%;
+    line-height: 1.2em;
+}
+.direita p {
+    float: left;
+}
+
+section img{
+    width: 7em;
+    float: left;
+    padding: 0.4em;
+}
+footer{
+   clear: both; 
+   float: right;
+   margin: 1em;
+
+}
+
+a {
+    text-decoration: none;
+    color: #412118;
+}
+a:hover{
+    color: #745c42;
+}
+
+header > h1 {
+    display: none;
+}
+#container{
+    width: 960px;
+    text-align: center;
+}
+nav{
+    padding: 1em 1em 1.7em 10em;
+    background-color: #745c42;
+    width: 80%;
+}
+nav ul li a{
+    margin-left: 2em;
+    text-align: center;
+}
+.centralizarforte  {
+    margin-left: 15em;
+}
+section table{
+    clear: both;
+    width: 100vw;
+}
+.horizontal *{
+    clear: both;
+}
